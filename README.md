@@ -31,8 +31,5 @@ Tudo aqui foi feito com prática, erros, testes e evolução constante 🚀
 ## 🗂 Estrutura do repositório
 
 ```bash
-├── fundamentos/
-├── exercicios/
-├── projetos/
-├── desafios/
+├── aulas(number)/
 └── README.md
