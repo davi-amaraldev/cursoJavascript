@@ -31,5 +31,5 @@ Tudo aqui foi feito com prática, erros, testes e evolução constante 🚀
 ## 🗂 Estrutura do repositório
 
 ```bash
-├── aulas(number)/
+├── seção_aula/aulas(number)
 └── README.md
