@@ -35,7 +35,7 @@ function meuEscopo(){
 
         function exibirIMC() {
         resultado.innerHTML = 
-            `Seu nome é ${pessoa.nome}, você tem ${pessoa.idade} anos, e seu IMC é ${resultadoIMC.toFixed(2)}`;
+            `Parabéns ${resultadoIMC}, seu nome é ${pessoa.idade} e seu IMC é de ${pessoa.nome}`;
         }
         exibirIMC();
     });
