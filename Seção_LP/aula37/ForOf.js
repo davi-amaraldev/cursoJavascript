@@ -16,3 +16,7 @@ for (let valor of nomes){
 nomes.forEach((el, i) => {
     console.log(el, i);
 })
+
+// For clássico - Geralmente com iteráveis (arrays ou strings)
+// For in - Retorna o índice ou chave (string, array ou objeto)
+// For of - Retorna o valor em si (iteráveis, arrays ou strings)
