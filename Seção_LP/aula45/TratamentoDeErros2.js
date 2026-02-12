@@ -1,12 +1,24 @@
+function retornaHora(data){
+    if(data && !(data instanceof Date)){
+        throw new TypeError('Esperando instância de Date.');
+    }
+
+    if (!data){
+        data = new Date();
+    }
+
+    return data.toLocaleTimeString('pt-BR', {
+        hour12: true,
+    });
+}
+
+
 try {
-    console.log('Abri um arquivo');
-    console.log('Manipulei o arquivo e gerou erro');
-    console.log('Fechei o arquivo')
-    // É executada quando não há erros
+const data = new Date('01-01-1970 12:58:12')
+const hora = retornaHora(11);
+console.log(hora)
 } catch (err) {
-    console.log('Tratando o erro');
-    // É executada quando há erros
+    // Tratar erro
 } finally {
-    console.log('Eu sempre sou executado');
-    // Sempre
+    console.log('Tenha um bom dia.')
 }
