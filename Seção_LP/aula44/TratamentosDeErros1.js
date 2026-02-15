@@ -12,3 +12,4 @@ try {
     console.log(err);
     console.log('Alguma coisa mais amigável')
 }
+
