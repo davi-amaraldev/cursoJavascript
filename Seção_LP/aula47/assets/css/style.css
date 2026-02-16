@@ -69,3 +69,15 @@ form button:active{
 .relogio{
     font-size: 3em;
 }
+
+.rodando {
+    color: green;
+}
+
+.pausado {
+    color: red;
+}
+
+.idle{
+    color: black;
+}
