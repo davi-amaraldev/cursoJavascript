@@ -57,6 +57,7 @@ pause.addEventListener('click', (event) => {
 zero.addEventListener('click', (event) => {
    clearInterval(timer);
    seconds = 0;
+   timer = null;    
    clock.innerHTML = getHourOfSeconds(seconds);
    setIdleStyle();
 })
