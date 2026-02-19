@@ -1,6 +1,6 @@
 const tasks = document.querySelector('.tasks');
 const taskInput = document.querySelector('.input-task');
-const sendButton = document.querySelector('.send-btn')
+const sendButton = document.querySelector('.send-btn');
 
 function createLi(){
     const li = document.createElement('li')
@@ -23,6 +23,8 @@ function createDeleteButton(li){
     li.innerHTML += ' ';
     const deleteButton = document.createElement('button');
     deleteButton.innerText = 'Apagar';
+    deleteButton.classList.add('delete-btn');
+    deleteButton.setAttribute('title', 'Apagar esta tarefa')
     li.appendChild(deleteButton);
 }
 
@@ -39,3 +41,13 @@ sendButton.addEventListener('click', () => {
 
     createTask(taskInput.value)
 })
+
+document.addEventListener('click', (e) => {
+    const el = e.target;
+    
+    if (el.classList.contains('delete-btn')){
+        el.parentElement.remove();
+    }
+})
+
+function salvarTarefa(){}
