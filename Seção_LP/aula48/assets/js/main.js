@@ -34,6 +34,7 @@ function createTask(taskText){
     tasks.appendChild(li);
     clearInput();
     createDeleteButton(li);
+    saveTasks();
 }
 
 sendButton.addEventListener('click', () => {
@@ -50,4 +51,27 @@ document.addEventListener('click', (e) => {
     }
 })
 
-function salvarTarefa(){}
+function saveTasks(){
+    const liTasks = tasks.querySelectorAll('li');
+    const taskList = [];
+
+    for (let task of liTasks){
+        let taskText = task.innerText;
+        taskText = taskText.replace('Apagar', '').trim('');
+        taskList.push(taskText);
+    }
+
+    const tasksJSON =  JSON.stringify(taskList);
+    localStorage.setItem('tasks', tasksJSON) 
+}
+
+function addSaveTasks(){
+    const tasks = localStorage.getItem('tasks');
+    const taskList = JSON.parse(tasks)
+    
+    for (let task of taskList){
+        createTask(task);
+    }
+}
+
+addSaveTasks();
