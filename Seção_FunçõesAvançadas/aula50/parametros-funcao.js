@@ -1,7 +1,12 @@
-// argument = sustenta todos os argumentos enviados
+function conta(operador, acumulador, ...numeros){
+    for (let numero of numeros){
+        if(operador === '+') acumulador += numero;
+        if(operador === '-') acumulador -= numero;
+        if(operador === '/') acumulador /= numero;
+        if(operador === '*') acumulador *= numero;
+    }
 
-function funcao(a, b = 2, c = 4){
-    console.log(a + b + c);
+    console.log(acumulador);
 }
 
-funcao(1)
+conta('+', 1, 20, 30, 40, 50);
