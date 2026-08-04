@@ -2,11 +2,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-ES6%2B-yellow" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Node.js-Backend-green" alt="Node.js">
   <img src="https://img.shields.io/badge/HTML5-Markup-orange" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-Styles-blue" alt="CSS3">
   <img src="https://img.shields.io/badge/Git-Version%20Control-red" alt="Git">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Em%20Evolução-brightgreen" alt="Status">
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
 
@@ -14,11 +13,11 @@
 
 ## 📖 Sobre o Repositório
 
-Este repositório reúne exercícios, anotações e projetos desenvolvidos durante meus estudos de JavaScript.
+Este repositório reúne exercícios, anotações e pequenos projetos desenvolvidos durante meus estudos de JavaScript.
 
-O objetivo é registrar minha evolução na linguagem, consolidar os fundamentos da programação e construir uma base sólida para o desenvolvimento back-end com JavaScript, Node.js e, futuramente, TypeScript.
+O objetivo é registrar minha evolução na linguagem, consolidar os fundamentos da programação e construir uma base sólida para avançar no desenvolvimento back-end com Node.js e TypeScript.
 
-Os conteúdos estão organizados por seções, passando por lógica de programação, funções, arrays, objetos, protótipos, Programação Orientada a Objetos, assincronismo e fundamentos do desenvolvimento de servidores.
+Os conteúdos estão organizados por seções, passando por lógica de programação, fundamentos do JavaScript, funções, arrays, objetos, protótipos, Programação Orientada a Objetos e programação assíncrona.
 
 ---
 
@@ -28,11 +27,10 @@ Os conteúdos estão organizados por seções, passando por lógica de programa�
 - Aprofundar meus conhecimentos em JavaScript
 - Praticar lógica e resolução de problemas
 - Compreender funções, arrays, objetos e protótipos
-- Aplicar Programação Orientada a Objetos
-- Estudar programação assíncrona
-- Compreender os fundamentos do Node.js
-- Aprender como funcionam servidores e requisições HTTP
-- Construir uma base sólida para TypeScript e desenvolvimento back-end
+- Aplicar os conceitos de Programação Orientada a Objetos
+- Compreender o funcionamento do JavaScript assíncrono
+- Escrever códigos mais organizados e legíveis
+- Construir uma base sólida para Node.js, TypeScript e back-end
 - Registrar minha evolução prática no GitHub
 
 ---
@@ -40,7 +38,6 @@ Os conteúdos estão organizados por seções, passando por lógica de programa�
 ## 🚀 Tecnologias Utilizadas
 
 - JavaScript
-- Node.js
 - HTML5
 - CSS3
 - Git
@@ -77,15 +74,12 @@ javascript-studies/
 ├── Seção_Assincrono/
 │   └── Callbacks, Promises, async/await e requisições
 │
-├── Node/
-│   └── Fundamentos do Node.js e servidores HTTP
-│
 ├── jsconfig.json
 ├── .gitignore
 └── README.md
 ```
 
-> A estrutura pode ser atualizada conforme novos conteúdos forem adicionados ao repositório.
+> A estrutura pode ser atualizada conforme novos exercícios e conteúdos forem adicionados.
 
 ---
 
@@ -155,7 +149,7 @@ javascript-studies/
 
 ---
 
-### 🏛 Objetos, Prototypes e Herança
+### 🏛️ Objetos, Prototypes e Herança
 
 - Objetos literais
 - Propriedades e métodos
@@ -185,7 +179,7 @@ javascript-studies/
 - Composição
 - Abstração
 - Separação de responsabilidades
-- Aplicação de POO em projetos
+- Aplicação de POO em exercícios e projetos
 
 ---
 
@@ -204,50 +198,28 @@ javascript-studies/
 - Event Loop
 - Requisições HTTP
 - Consumo de APIs
-
----
-
-### 🖥️ Node.js e Back-end
-
-- Introdução ao Node.js
-- Execução de JavaScript fora do navegador
-- Módulos
-- CommonJS
-- ES Modules
-- Objeto `process`
-- Manipulação de caminhos
-- Fundamentos de cliente e servidor
-- Criação de servidor com o módulo `http`
-- Objetos de requisição e resposta
-- Métodos HTTP
-- Cabeçalhos HTTP
-- Status codes
-- Respostas em HTML e JSON
-- Rotas estáticas
-- Rotas dinâmicas
-- Parâmetros de URL
-- Tratamento de rotas inexistentes
-- Organização inicial de uma aplicação back-end
+- `XMLHttpRequest`
+- Fetch API
+- Axios
 
 ---
 
 ## 💡 Projetos e Exercícios
 
-Durante os estudos, foram desenvolvidos exercícios e pequenos projetos para aplicar os conceitos aprendidos.
+Durante os estudos, desenvolvi exercícios e pequenos projetos para aplicar os conceitos aprendidos.
 
 | Projeto ou exercício | Conteúdo principal | Status |
 |---|---|---|
-| Exercícios de lógica | JavaScript | Concluído |
+| Exercícios de lógica | Lógica de programação | Concluído |
 | Exercícios com funções | Funções e escopo | Concluído |
 | Manipulação de arrays | Métodos de arrays | Concluído |
 | Validação de CPF | Funções construtoras e classes | Concluído |
 | Validação de formulários | DOM e validação de dados | Concluído |
 | Exercícios com objetos | Objetos e propriedades | Concluído |
 | Exercícios com prototypes | Prototypes e herança | Concluído |
-| Exercícios de POO | Classes e composição | Concluído |
-| Exercícios assíncronos | Promises e async/await | Em andamento |
-| Servidor HTTP | Node.js e HTTP | Em andamento |
-| Rotas dinâmicas | Node.js e parâmetros de URL | Em andamento |
+| Exercícios de POO | Classes, herança e composição | Concluído |
+| Exercícios assíncronos | Promises, async/await e requisições | Concluído |
+| Consumo de APIs | Fetch API e Axios | Concluído |
 
 ---
 
@@ -261,35 +233,29 @@ Durante os estudos, foram desenvolvidos exercícios e pequenos projetos para apl
 - [x] Prototypes
 - [x] Herança com Prototypes
 - [x] Programação Orientada a Objetos
-- [x] Fundamentos de JavaScript Assíncrono
-- [x] Introdução ao Node.js
-- [x] Servidor HTTP com Node.js
-- [x] Rotas estáticas e dinâmicas
-- [ ] Express
-- [ ] APIs REST
-- [ ] TypeScript
-- [ ] Fastify
-- [ ] PostgreSQL
-- [ ] Testes automatizados
-- [ ] Autenticação e autorização
+- [x] JavaScript Assíncrono
+- [x] Promises
+- [x] Async/Await
+- [x] Requisições HTTP
+- [x] Consumo de APIs
 
 ---
 
 ## 🧠 Aprendizados Principais
 
-Ao longo deste repositório, estou desenvolvendo conhecimentos importantes para programação e desenvolvimento back-end, como:
+Ao longo deste repositório, desenvolvi conhecimentos importantes para programação e desenvolvimento de software, como:
 
 - Escrever código mais organizado e legível
 - Resolver problemas utilizando lógica de programação
 - Manipular e transformar dados com JavaScript
-- Compreender o funcionamento interno da linguagem
+- Compreender melhor o funcionamento interno da linguagem
 - Utilizar funções, objetos, classes e módulos
+- Aplicar Programação Orientada a Objetos
 - Trabalhar com código assíncrono
-- Compreender a comunicação entre cliente e servidor
-- Criar servidores e rotas com Node.js
-- Trabalhar com requisições e respostas HTTP
-- Utilizar Git e GitHub no fluxo de desenvolvimento
-- Construir uma base sólida antes de avançar para frameworks
+- Consumir dados de APIs externas
+- Tratar erros em operações síncronas e assíncronas
+- Utilizar Git e GitHub no fluxo de estudos
+- Construir uma base sólida antes de avançar para o back-end
 
 ---
 
@@ -307,38 +273,37 @@ Entre no diretório:
 cd javascript-studies
 ```
 
-Para executar um arquivo com Node.js:
+Para executar um arquivo JavaScript com Node.js:
 
 ```bash
 node caminho/do/arquivo.js
 ```
 
-Alguns exercícios podem ser executados diretamente no navegador por meio do arquivo `index.html`.
+Os exercícios que possuem interface podem ser executados diretamente no navegador por meio do arquivo `index.html`.
 
 ---
 
 ## 🛣️ Próximos Passos
 
-Os próximos conteúdos planejados são:
+Após consolidar os conteúdos deste repositório, meus próximos estudos serão direcionados para:
 
-- Aprofundamento em Node.js
-- Desenvolvimento de APIs REST
-- Express
 - TypeScript
+- Node.js
+- Desenvolvimento de APIs REST
 - Fastify
 - PostgreSQL
 - Validação de dados
-- Tratamento centralizado de erros
-- Variáveis de ambiente
-- Autenticação e autorização
+- Tratamento de erros
 - Testes automatizados
 - Arquitetura de aplicações back-end
+
+Esses conteúdos serão desenvolvidos em projetos e repositórios próprios.
 
 ---
 
 ## 📝 Observações
 
-Este repositório está em constante atualização conforme avanço nos estudos e desenvolvo novos exercícios.
+Este repositório permanece em atualização conforme reviso os conteúdos e adiciono novos exercícios.
 
 O objetivo não é apenas concluir aulas, mas compreender os conceitos, praticá-los e aplicá-los em projetos reais.
 
